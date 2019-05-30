@@ -1,0 +1,21 @@
+car_yr = input("What year is your Ferrari 250 GTO? ")
+
+if ("1962" <= car_yr <= "1964"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $18,500")
+elif ("1965" <= car_yr <= "1968"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $6,000")    
+elif ("1969" <= car_yr <= "1971"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $12,000")    
+elif ("1972" <= car_yr <= "1975"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $48,000")    
+elif ("1976" <= car_yr <= "1980"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $200,000")    
+elif ("1981" <= car_yr <= "1985"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $650,000")    
+elif ("1986" <= car_yr <= "2012"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $35,000,000")    
+elif ("2013" <= car_yr <= "2014"):
+    print("The approximate value of your " + car_yr + " Ferrari 250 GTO is $52,000,000")    
+else:
+    print("The year entered wasn't in range")
+	 
